@@ -1,0 +1,67 @@
+.gallery-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  .left-panel {
+    position: relative;
+    width: 20%;
+    top: 50px;
+    display: grid;
+    justify-content: left;
+    flex-direction: left;
+  }
+  
+  
+  .main-image {
+    width: 648px;
+    height: 648px;
+  }
+  
+  
+  
+  .text-vertical {
+    left: -30px; /* Adjust for perfect alignment */
+    top: 50%;
+    transform: translateY(100px) rotate(-90deg); /* Rotate and center text */
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 39.84px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  
+  .right-panel {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 648px;
+  }
+  
+  .small-image {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  .chair-01{
+    height: 312px;
+    width: 312px;
+  }
+  .chair-02{
+    height: 312px;
+    width: 312px;
+  }
+  .chair-03{
+    height: 312px;
+    width: 312px;
+  }
+  .chair-04{
+    height: 312px;
+    width: 312px;
+  }
